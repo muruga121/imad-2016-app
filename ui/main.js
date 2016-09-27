@@ -15,10 +15,10 @@ button.onclick = function () {
         var span = document.getElementById('count');
         span.innerHTML = counter.toString();
       }
-    }
+    };
       //Not done yet
 };
     //Make a request
-    request.open('GET','http://muruga121.imad.hasura-app.io/counter',true);
+   request.open('GET','http://muruga121.imad.hasura-app.io/counter',true);
    request.send(null);
 };
