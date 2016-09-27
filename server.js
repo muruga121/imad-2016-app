@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 var articles = { 
-'articleOne': {
+'article-one': {
     title: 'Article One | Murugaprasaad',
     heading: 'Article one',
     Date: 'Sep 5,2016',
@@ -29,7 +29,7 @@ var articles = {
       This is the content for my first article.
     </p>`
 },
-'articleTwo': {
+'article-two': {
     title: 'Article Two | Murugaprasaad',
     heading: 'Article Two',
     Date: 'Sep 15,2016',
@@ -39,7 +39,7 @@ var articles = {
     </p>
 },
 
-'articleThree': {
+'article-three': {
     title: 'Article Three | Murugaprasaad',
     heading: 'Article Three',
     Date: 'Sep 25,2016',
@@ -116,6 +116,17 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
+
+var names = [];
+app.get('/submit-name/:name', function(req,res) {
+  //Get the name from the request
+  var name = req.params.name;
+  
+  names.push(name);
+  //JSON:Javascript Object Notation
+  
+  res.send(JSON.stringify(names)); 
+};
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
