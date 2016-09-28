@@ -13,22 +13,13 @@ var articles = {
     Date: 'Sep 5,2016',
     content:`
     <p>
-               This is the content for my first article.This is the content for my first article.
-               This is the content for my first article.
+               Hi Everyone! I'm Murugaprasaad the developer of this webapp....
     </p>
     <p>
-               This is the content for my first article.This is the content for my first article.
-               This is the content for my first article.
+               In the next few pages , I will be introducing about myself.
     </p>
-    <p>
-               This is the content for my first article.This is the content for my first article.
-               This is the content for my first article.
-    </p> 
-    <p>
-      This is the content for my first article.This is the content for my first article.
-      This is the content for my first article.
-    </p>`
-},
+    
+},    
 'article-two': {
     title: 'Article Two | Murugaprasaad',
     heading: 'Article Two',
@@ -36,7 +27,7 @@ var articles = {
     content:`
     <p>
     This is the content for my second article.This is the content for my second article.
-    </p>
+    <p>
 },
 
 'article-three': {
