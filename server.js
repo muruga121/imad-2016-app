@@ -20,19 +20,19 @@ var articles = {
     </p>
     
 },    
-'article-two': {
-    title: 'Article Two | Murugaprasaad',
-    heading: 'Article Two',
+'Personal Info': {
+    title: 'Personal Info | Murugaprasaad',
+    heading: 'Personal Info',
     Date: 'Sep 15,2016',
     content:`
     <p>
     This is the content for my second article.This is the content for my second article.
-    <p>
+    </p>
 },
 
-'article-three': {
-    title: 'Article Three | Murugaprasaad',
-    heading: 'Article Three',
+'Hobbies': {
+    title: 'Hobbies | Murugaprasaad',
+    heading: 'Hobbies',
     Date: 'Sep 25,2016',
     content:`
     <p>
